@@ -1,0 +1,139 @@
+body, html {
+background: #ffffff url(/*link removed*/) top center no-repeat;
+padding: 0px;
+margin: 0px;
+}
+
+#gaia_header a {
+color: #fff !important;
+font-weight: normal;
+}
+
+a {
+color: #F29BA6;
+font-weight: normal;
+}
+
+a:hover {
+color: #fcc4ca;
+text-decoration: none;
+}
+
+.date {
+display: none;
+}
+
+#columns {
+width: 870px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+float: none;
+margin-top: -40px;
+}
+
+#column_1 {
+width: 250px;
+text-align: center;
+padding-left: 10px;
+}
+
+#column_2 {
+width: 560px;
+text-align: justify;
+}
+
+#column_3 {
+display: none;
+}
+
+.panel {
+background: none !important;
+color: #4F4F4F; 
+font-size: 11px; 
+font-family: Verdana; 
+line-height: 15px;
+word-spacing: 2px;
+border: 0px solid #f7d1dc;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.panel h2 {
+background: none;
+color: #F29BA6;
+text-transform: lowercase;
+font-size: 23px;
+text-align: center;
+letter-spacing: 15px;
+font-weight: normal;
+font-variant: small-caps;
+padding-top: 15px;
+padding-bottom: 15px;
+border-top: 1px solid #f8f8f8;
+border-bottom: 1px solid #f8f8f8
+}
+
+.panel h3, #id_details strong, #id_interests strong, #id_forum strong {
+text-transform: lowercase;
+font-size: 11px;
+font-variant: small-caps;
+letter-spacing: 2px;
+}
+
+.contact_panel {
+padding: 10px;
+background-color: #FFF;
+}
+
+.contact_panel a {
+display: block;
+padding: 3px;
+text-transform: lowercase;
+font-variant: small-caps;
+letter-spacing: 2px;
+}
+
+dd {
+padding-bottom: 15px;
+}
+
+.postcontent {
+padding-top: 0px;
+padding-left: 5px;
+}
+
+dl * {
+border: none !important;
+}
+
+.interests_panel ul li:after {
+font-size: 10px;
+content: ",";
+}
+
+.interests_panel ul li:last-child:after {
+content: none;
+}
+
+.premium_sparkle {
+margin-top: -30px; 
+margin-left: 0px;
+display: none;
+}
+
+/* WISHLIST HOVER EFFECT IN PROGRESS */
+/*#id_wishlist.panel.wish_list_panel {
+height: 0px;
+overflow: hidden;
+}*/
+
+/*#wishlist_title {
+position: relative;
+top: -15px;
+}*/
+
+/*#id_wishlist.panel.wish_list_panel:hover {
+height: 100%;
+overflow: visible;
+}*/
